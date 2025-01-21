@@ -32,5 +32,5 @@
 
 -   Guarda los DataFrames de leads y alumnos en archivos CSV.
 
--   Creaion e inserccion de datos en las tablas 'alumnos' y 'leads' en una base de datos de PostgreSQL.
+-   Creación e inserccion de datos en las tablas 'alumnos' y 'leads' en una base de datos de PostgreSQL.
 
