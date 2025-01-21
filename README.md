@@ -34,3 +34,32 @@
 
 -   Creación e inserccion de datos en las tablas 'alumnos' y 'leads' en una base de datos de PostgreSQL.
 
+# Proyecto
+
+   <div style="text-align: center;">
+     <img src="https://github.com/santiagorodriguez-dev/pf_01_etl_preprocesamiento/blob/main/images/estructura.png" alt="logo" />
+   </div>
+
+# Notas
+-   Para la ejecucion del notebook, crear fichero .env en el raiz del proyecto.
+
+```sh
+DB_USER='user'
+DB_PASSWORD='pass'
+ACCOUNT_IDENTIFIER='url_identificador'
+DB_NAME='Nombre_base_de_datos'
+```
+
+## Construido con 🛠️
+
+* [Pyhton](https://www.python.org/) - Lenguaje utilizado
+* [Faker](https://faker.readthedocs.io/en/master/) - Faker
+* [sqlalchemy](https://www.sqlalchemy.org/) - sqlalchemy
+* [psycopg](https://www.psycopg.org/) - psycopg
+* [pandas](https://pandas.pydata.org/docs/) - pandas
+* [supabase](https://supabase.com/) - supabase
+* [Visual Studio Code](https://code.visualstudio.com/) - IDE desarrollo
+  
+## Autores ✒️
+
+* **Santiago Rodriguez** - [santiagorodriguez-dev](https://github.com/santiagorodriguez-dev)
