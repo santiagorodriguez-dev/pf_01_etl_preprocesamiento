@@ -158,7 +158,8 @@ def load_data_init_leads(num_registros: int = 1001):
                "edad": np.random.randint(18, 45),
                "telefono": fake.phone_number(),
                "sexo": random.choices(['Hombre', 'Mujer'], weights=[0.5, 0.5], k=1)[0],
-               "motivo_compra":fake.motivo_compra_leads()
+               "motivo_compra":fake.motivo_compra_leads(),
+               "score":""
              }
              for i in range(num_registros)
          ]
