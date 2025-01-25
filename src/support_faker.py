@@ -75,7 +75,7 @@ def load_data_init_alumnos(num_registros: int = 10001):
     return df
 
 
-def load_data_init_leads(num_registros: int = 1001):
+def load_data_init_leads(num_registros: int = 100):
     """
     Genera un DataFrame simulado con datos de leads utilizando la biblioteca Faker.
 
