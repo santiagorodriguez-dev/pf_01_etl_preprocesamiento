@@ -1,3 +1,4 @@
+# 1 - Agente asistente de ventas - Extraccion e inserccion de datos en BD.
 # 1. pipeline ETL
 
 -   Generación de datos sintéticos, guardado en csv y Base de datos.
