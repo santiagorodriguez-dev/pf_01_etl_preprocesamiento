@@ -17,8 +17,6 @@
 
 -   Transformación: limpieza de datos para que no haya datos repetidos (clave email).
 
--   Generación: datos a ficheros csv.
-
 -   Carga de datos: Se crean las tablas de base de datos y se almacena la información.
 ---
 # 3. Proceso
