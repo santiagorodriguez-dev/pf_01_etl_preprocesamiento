@@ -10,7 +10,6 @@
    <div style="text-align: center;">
      <img src="https://github.com/santiagorodriguez-dev/pf_01_etl_preprocesamiento/blob/main/images/bd.png" alt="logo" />
    </div>
----
 
 # 2. Implementación
 
