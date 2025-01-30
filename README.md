@@ -91,6 +91,15 @@ ACCOUNT_IDENTIFIER='url_identificador'
 DB_NAME='Nombre_base_de_datos'
 ```
 ---
+
+## Ejecución del Proyecto
+
+Para ejecutar el proyecto utiliza el siguiente comando:
+
+```bash
+python main.py
+```
+---
 # 4. Ejecucion
 ```sh
   D:\workspace\pf_01_etl_preprocesamiento>python main.py
@@ -101,7 +110,7 @@ DB_NAME='Nombre_base_de_datos'
   Resultados en la tabla alumnos: 29533
   Resultados en la tabla leads: 95
 ```
-
+---
 ## Licencia
 
 Este proyecto está licenciado bajo la Licencia Apache 2.0. Para más detalles, consulta el archivo [LICENSE](LICENSE).
