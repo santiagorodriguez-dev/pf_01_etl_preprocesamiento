@@ -99,8 +99,6 @@ Para ejecutar el proyecto utiliza el siguiente comando:
 ```bash
 python main.py
 ```
----
-# 4. Ejecucion
 ```sh
   D:\workspace\pf_01_etl_preprocesamiento>python main.py
   Inicio creacion de dataset
