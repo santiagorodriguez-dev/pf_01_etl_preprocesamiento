@@ -35,12 +35,6 @@
 
 -   Creación e inserción de datos con sqlalchemy en las tablas 'alumnos' y 'leads' en una base de datos de PostgreSQL.
 
-# Proyecto
-
-   <div style="text-align: center;">
-     <img src="https://github.com/santiagorodriguez-dev/pf_01_etl_preprocesamiento/blob/main/images/estructura.png" alt="logo" />
-   </div>
-
 # Notas
 -   Para la ejecucion del notebook, crear fichero .env en el raiz del proyecto.
 
@@ -50,6 +44,22 @@ DB_PASSWORD='pass'
 ACCOUNT_IDENTIFIER='url_identificador'
 DB_NAME='Nombre_base_de_datos'
 ```
+
+# 4. Ejecucion
+```sh
+  D:\workspace\pf_01_etl_preprocesamiento>python main.py
+  Inicio creacion de dataset
+  Numero de df_leads:  95
+  Numero de df_alumnos:  29533
+  Conexión realizada con éxito
+  Resultados en la tabla alumnos: 29533
+  Resultados en la tabla leads: 95
+```
+
+# Proyecto
+   <div style="text-align: center;">
+     <img src="https://github.com/santiagorodriguez-dev/pf_01_etl_preprocesamiento/blob/main/images/estructura.png" alt="logo" />
+   </div>
 
 ## Construido con 🛠️
 
