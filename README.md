@@ -46,8 +46,8 @@ Para asegurar la correcta ejecución del proyecto, es necesario instalar las sig
    <div style="text-align: center;">
      <img src="https://github.com/santiagorodriguez-dev/pf_01_etl_preprocesamiento/blob/main/images/estructura.png" alt="logo" />
    </div>
----
 
+---
 ## Configuración del Entorno
 
 Sigue estos pasos para configurar el entorno de desarrollo:
