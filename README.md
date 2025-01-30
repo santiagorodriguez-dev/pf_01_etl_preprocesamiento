@@ -1,7 +1,7 @@
 # 1 - Agente asistente de ventas - Extraccion e inserccion de datos en BD.
 # 1. pipeline ETL
 
--   Generación de datos sintéticos, guardado en csv y Base de datos.
+-   Generación de datos sintéticos, e inserccion en Base de datos.
 
 -   Python, Faker, sqlalchemy, psycopg2, pandas, Base de datos PostgreSQL (Supabase).
 
@@ -11,6 +11,7 @@
      <img src="https://github.com/santiagorodriguez-dev/pf_01_etl_preprocesamiento/blob/main/images/bd.png" alt="logo" />
    </div>
 ---
+
 # 2. Implementación
 
 -   Extracción: generación de datos con Faker.
