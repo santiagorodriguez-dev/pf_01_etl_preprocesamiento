@@ -29,8 +29,6 @@
 
 -   Elimina duplicados entre los DataFrames de leads y alumnos basándose en la columna 'email'.
 
--   Guarda los DataFrames de leads y alumnos en archivos CSV con pandas, test de datos insertados con psycopg2.
-
 -   Creación e inserción de datos con sqlalchemy en las tablas 'alumnos' y 'leads' en una base de datos de PostgreSQL.
 ---
 ## Requisitos del Entorno
