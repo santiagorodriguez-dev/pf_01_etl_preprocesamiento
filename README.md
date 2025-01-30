@@ -81,7 +81,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 ---
-# Notas
+### Notas
 -   Para la ejecucion del notebook, crear fichero .env en el raiz del proyecto.
 
 ```sh
