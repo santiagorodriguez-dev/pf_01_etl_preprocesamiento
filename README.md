@@ -10,7 +10,7 @@
    <div style="text-align: center;">
      <img src="https://github.com/santiagorodriguez-dev/pf_01_etl_preprocesamiento/blob/main/images/bd.png" alt="logo" />
    </div>
-
+---
 # 2. Implementación
 
 -   Extracción: generación de datos con Faker.
@@ -20,7 +20,7 @@
 -   Generación: datos a ficheros csv.
 
 -   Carga de datos: Se crean las tablas de base de datos y se almacena la información.
-
+---
 # 3. Proceso
 
 -   Genera un DataFrame simulado con datos de alumnos utilizando la biblioteca Faker, con columnas: 
@@ -34,7 +34,57 @@
 -   Guarda los DataFrames de leads y alumnos en archivos CSV con pandas, test de datos insertados con psycopg2.
 
 -   Creación e inserción de datos con sqlalchemy en las tablas 'alumnos' y 'leads' en una base de datos de PostgreSQL.
+---
+## Requisitos del Entorno
 
+Para asegurar la correcta ejecución del proyecto, es necesario instalar las siguientes dependencias en un entorno virtual de Python:
+
+- **pandas**: Para manipulación y análisis de datos.
+- **numpy**: Para operaciones numéricas.
+- **Faker**: Para generación dataset sinteticos.
+- **SQLAlchemy**: Creacion/inserccion de datos en BD.
+- **psycopg2**: psycopg2 - Python-PostgreSQL Database Adapter.
+
+---
+# Proyecto
+   <div style="text-align: center;">
+     <img src="https://github.com/santiagorodriguez-dev/pf_01_etl_preprocesamiento/blob/main/images/estructura.png" alt="logo" />
+   </div>
+---
+
+## Configuración del Entorno
+
+Sigue estos pasos para configurar el entorno de desarrollo:
+
+### 1️⃣ Clonar el repositorio
+
+```bash
+git clone https://github.com/santiagorodriguez-dev/pf_01_etl_preprocesamiento.git
+cd pf_01_etl_preprocesamiento
+```
+
+### 2️⃣ Crear y activar un entorno virtual
+
+```bash
+python -m venv venv
+```
+
+#### En Windows:
+```bash
+venv\Scripts\activate
+```
+
+#### En macOS/Linux:
+```bash
+source venv/bin/activate
+```
+
+### 3️⃣ Instalar las dependencias
+
+```bash
+pip install -r requirements.txt
+```
+---
 # Notas
 -   Para la ejecucion del notebook, crear fichero .env en el raiz del proyecto.
 
@@ -44,7 +94,7 @@ DB_PASSWORD='pass'
 ACCOUNT_IDENTIFIER='url_identificador'
 DB_NAME='Nombre_base_de_datos'
 ```
-
+---
 # 4. Ejecucion
 ```sh
   D:\workspace\pf_01_etl_preprocesamiento>python main.py
@@ -56,21 +106,11 @@ DB_NAME='Nombre_base_de_datos'
   Resultados en la tabla leads: 95
 ```
 
-# Proyecto
-   <div style="text-align: center;">
-     <img src="https://github.com/santiagorodriguez-dev/pf_01_etl_preprocesamiento/blob/main/images/estructura.png" alt="logo" />
-   </div>
+## Licencia
 
-## Construido con 🛠️
+Este proyecto está licenciado bajo la Licencia Apache 2.0. Para más detalles, consulta el archivo [LICENSE](LICENSE).
 
-* [Pyhton](https://www.python.org/) - Lenguaje utilizado
-* [Faker](https://faker.readthedocs.io/en/master/) - Faker
-* [sqlalchemy](https://www.sqlalchemy.org/) - sqlalchemy
-* [psycopg](https://www.psycopg.org/) - psycopg
-* [pandas](https://pandas.pydata.org/docs/) - pandas
-* [supabase](https://supabase.com/) - supabase
-* [Visual Studio Code](https://code.visualstudio.com/) - IDE desarrollo
-  
-## Autores ✒️
+---
 
+## Autores
 * **Santiago Rodriguez** - [santiagorodriguez-dev](https://github.com/santiagorodriguez-dev)

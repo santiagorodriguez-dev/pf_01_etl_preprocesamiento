@@ -8,7 +8,6 @@ from faker.providers import DynamicProvider # type: ignore
 import dotenv # type: ignore
 import numpy as np # type: ignore
 dotenv.load_dotenv()
-from openai import OpenAI # type: ignore
 import string
 import random
 from datetime import datetime
